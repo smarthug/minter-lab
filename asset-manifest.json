@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/minter-lab/static/css/main.e6c13ad2.css",
+    "main.js": "/minter-lab/static/js/main.ce1c31f5.js",
+    "static/js/787.f15e15b0.chunk.js": "/minter-lab/static/js/787.f15e15b0.chunk.js",
+    "index.html": "/minter-lab/index.html",
+    "main.e6c13ad2.css.map": "/minter-lab/static/css/main.e6c13ad2.css.map",
+    "main.ce1c31f5.js.map": "/minter-lab/static/js/main.ce1c31f5.js.map",
+    "787.f15e15b0.chunk.js.map": "/minter-lab/static/js/787.f15e15b0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.ce1c31f5.js"
+  ]
+}
