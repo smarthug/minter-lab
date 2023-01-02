@@ -11,10 +11,10 @@ import * as Pages from "./pages";
 
 const labs = Object.entries(Pages);
 // console.log(labs);
-
+console.log(process.env.PUBLIC_URL);
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div style={{ height: "100vh" }} className="App">
         <Routes>
           {labs.map(([k, v]) => {
