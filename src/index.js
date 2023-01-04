@@ -4,10 +4,19 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import '@rainbow-me/rainbowkit/styles.css'
+import { RainbowKitProvider } from '@rainbow-me/rainbowkit'
+import { WagmiConfig } from 'wagmi'
+import { chains, client } from './wagmi'
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <WagmiConfig client={client}>
+      <RainbowKitProvider chains={chains}>
+        <App />
+      </RainbowKitProvider>
+    </WagmiConfig>
   </React.StrictMode>
 );
 
